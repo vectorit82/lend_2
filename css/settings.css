@@ -1,0 +1,151 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+/*reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, menu, nav, output, ruby, section,
+summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0;}
+
+/* HTML5 display-role reset for older browsers */
+/* endzeit_____ */
+article, aside, details, figcaption, figure, footer, header, menu, nav, section, main {display: block;}
+
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+img{max-width: 100%; height: auto;}
+a{text-decoration: underline;}
+a:hover{cursor: pointer;}
+/* michael-k90 */
+*::-webkit-input-placeholder {color: #a9a9a9; opacity: 1;}
+*:-moz-placeholder {color: #a9a9a9; opacity: 1;}
+*::-moz-placeholder {color: #a9a9a9; opacity: 1;}
+*:-ms-input-placeholder {color: #a9a9a9; opacity: 1;}
+*{margin: 0; padding: 0;}
+*{-webkit-box-sizing: border-box; box-sizing: border-box;}
+button,input,a{outline: none;}
+/* endzeit_____ */
+.hidden{display: none;}
+.left{float: left;}
+.right{float: right;}
+.center{text-align: center;}
+.clearfix:after{content: '';display: block;clear: both;}
+.clear{clear: both;height: 0px;}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/subset-BebasNeueRegular.woff2') format('woff2'),
+    url('../fonts/subset-BebasNeueRegular.woff') format('woff'),
+    url('../fonts/subset-BebasNeueRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/subset-BebasNeueBold.woff2') format('woff2'),
+    url('../fonts/subset-BebasNeueBold.woff') format('woff'),
+    url('../fonts/subset-BebasNeueBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+html{
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+}
+h1,h2,h3,h4,h5,h6{font-family: 'Bebas Neue'; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;}
+b,strong{font-weight: 700;}
+body{
+    width: 100%;
+    min-width: 320px;
+    padding: 0px;
+    margin: 0px auto;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #1e1e1e;
+    background: #fff;
+}
+.main-wrap{
+    width: 480px;
+    margin: 0 auto;
+}
+section{
+    padding: 40px 0px;
+}
+.m1-form>div{
+    margin: 0 auto 15px;
+}
+.m1-form>div:last-child{
+    margin-bottom: 0;
+}
+.m1-form input{
+    position: relative;
+    display: block;
+    outline: 0;
+    border: 0;
+    width: 374px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+    background: #eae4d9 ;
+    text-indent: 15px;
+    font-size: 24px;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.m1-form input:focus{
+    border-color: #999;
+}
+.button-m{
+    position: relative;
+    display: block;
+    width: 374px;
+    height: 94px;
+    margin: 0 auto;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 94px;
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #121212;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+    background: #ffd200;
+    background-image: -o-linear-gradient(top, #ffd200, #ffb600);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd200), to(#ffb600));
+    background-image: linear-gradient(to bottom, #ffd200, #ffb600);
+    border-bottom: 4px solid #cf9400;
+    -webkit-box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+h2.title{
+    text-align: center;
+    font-size: 68px;
+    line-height: 1em;
+}
+h2.title .col-1{
+    color: #ffb600;
+}
+div.sub-title{
+    width: 90%;
+    margin: 0 auto 20px;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 28px;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    color: #999;
+}

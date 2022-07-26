@@ -1,0 +1,955 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main__wrap {
+  max-width: 480px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+.main__title {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #0c0c0c;
+  padding: 12px 0;
+}
+
+.main__image {
+  min-height: 467px;
+  position: relative;
+  background: url(../img/main_image.png) no-repeat center / contain;
+}
+
+.main__image-promo {
+  position: absolute;
+  width: 260px;
+  height: 82px;
+  left: 110px;
+  bottom: 20px;
+  background: #ffffff;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.main__image-promo-num {
+  margin-left: 10px;
+  display: block;
+}
+
+.orange-text {
+  color: #f38240;
+}
+
+.white-text{
+  color: white;
+}
+
+.small-percent {
+  font-size: 20px;
+}
+
+.main__price {
+  height: 85px;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag{
+  width: 20px;
+}
+
+.icons__adv{
+  width: 160px;
+}
+
+.icons__wrapper{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.main__price.bottom{
+  background: white;
+}
+
+.main__price.window{
+  background: none;
+}
+
+.old-price-wrap {
+  margin-right: 43px;
+}
+
+.block-2{
+  font-family: "Fira Sans", sans-serif;
+  padding: 10px 16px;
+}
+
+.old-price-wrap__text {
+  font-family: "Bebas Neue";
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #0c0c0c;
+}
+
+.old-price-wrap__price {
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+}
+
+.new-price__text {
+  font-family: "Bebas Neue";
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main__features {
+  display: flex;
+  justify-content: space-around;
+  padding: 26px 0;
+}
+
+.feature {
+  max-width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feature__image {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 6px;
+}
+
+.feature__text {
+  font-family: "Fira Sans";
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.with__int {
+  letter-spacing: 0.17em;
+}
+
+.main__timer {
+  margin-top: 10px;
+  margin-bottom: 36px;
+}
+
+.timer__text {
+  font-family: "Fira Sans";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  margin-bottom: -7px;
+}
+
+.timer__num {
+  font-family: "Fira Sans";
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: 0.15em;
+  color: #0c0c0c;
+}
+
+.button {
+  position: relative;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.button.bottom{
+  margin-bottom: 0  ;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.button__text {
+  font-family: "Bebas Neue";
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: -4px;
+}
+
+.button-req {
+  margin: 0 auto;
+  width: 381px;
+  height: 80px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.button-req1 {
+  background: #c26833;
+  bottom: 0px;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.button-req2 {
+  background: #f38240;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remainder {
+  font-family: "Fira Sans";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #0c0c0c;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remainder__border {
+  position: relative;
+  width: 30px;
+  height: 34px;
+  margin: 0 10px;
+}
+
+.border-req {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.border-req1 {
+  background: #c26833;
+  bottom: 0px;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.border-req2 {
+  background: #f38240;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+}
+
+.with-what-text {
+  color: #0c0c0c;
+  font-weight: 300;
+  font-family: "Merriweather", serif;
+  text-align: left;
+  padding: 16px;
+  background: url(/img/rep-bg-alcamntara-sweatshirt.etalook.png);
+  background-size: contain;
+}
+
+.with-what-text .tub {
+  font-family: "Fira Sans";
+
+  text-indent: 30px;
+  margin-bottom: 5px;
+}
+
+.timer {
+  margin: 0px 0px 20px 0px;
+}
+
+.gift-el-gift-up-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.gift-el-gift-up-element img {
+  width: 35px;
+  height: 35px;
+}
+
+.gift-el-gift-up-element > * {
+  font-size: 19px;
+  margin: 5px 0;
+}
+
+.gift-el-gift-down-element span {
+  font-size: 20px;
+}
+
+.block-3 .gift .gift-el {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block-3 .gift .gift-up {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.block-3 .gift .gift-up > span {
+  text-align: center;
+}
+
+.block-1 .order {
+  padding: 15px 0 15px;
+}
+
+.gift-el-gift-down-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+
+.gift-el-gift-down-element > div > img {
+  width: 20px;
+  height: 20px;
+}
+
+.gift-el.gift-down {
+  padding-left: 220px;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.gift-el-gift-down-element > img {
+  width: 20px;
+  height: 20px;
+}
+
+.text-oplata-after-pol {
+  display: block;
+
+  text-align: center;
+  padding-top: 10px;
+}
+
+video.back_video {
+  min-width: 100%;
+  height: auto;
+}
+
+.video_block{
+  overflow: hidden;
+}
+
+.video_block_inner{
+  margin-right: -1px;
+}
+
+.wp-tab {
+  color: #0c0c0c;
+  font-size: 24px;
+  padding: 26px 0;
+}
+
+.wp-row {
+  padding: 0 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.row {
+  margin: 0 !important;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.row-w {
+  width: 100px;
+  margin-right: 20px !important;
+}
+
+.wp-size {
+  display: flex;
+  justify-content: start;
+}
+
+.wp-size .size:not(:last-of-type) {
+  margin-right: 6px;
+}
+
+.wp-color__item{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.wp-color{
+  display: flex;
+}
+
+.wp-color__black{
+  background: #0c0c0c;
+}
+
+.wp-color__blue{
+  background: #3C3E5D;
+}
+
+.size{
+  background: #f38240;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  box-shadow: 0 4px 0px #c26833;
+}
+
+.order {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.order .cost-2 {
+  padding: 0 0 20px;
+  text-align: center;
+}
+
+.order .cost-2 > span {
+  display: inline-block;
+  vertical-align: baseline;
+  text-transform: uppercase;
+}
+
+.order .cost-2 > span.old-cost {
+  padding: 0 15px 0 0;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+.order .cost-2 > span.old-cost s {
+  font-size: 40px;
+  line-height: 1em;
+  font-weight: 700;
+}
+
+.order .cost-2 > span.new-cost {
+  padding: 0 0 0 15px;
+  font-size: 70px;
+  line-height: 1em;
+  font-weight: 700;
+  color: #ffb600;
+}
+
+.order .ost-col {
+  padding: 10px 0 0;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.order .ost-col > span {
+  display: inline-block;
+  padding: 4px 8px 0;
+  font-weight: 700;
+  color: #121212;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+  background: #ffd200;
+  background-image: -o-linear-gradient(top, #ffd200, #ffb600);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffd200),
+    to(#ffb600)
+  );
+  background-image: linear-gradient(to bottom, #ffd200, #ffb600);
+  border-radius: 4px;
+}
+
+.cont-img {
+  display: block;
+  margin: 0 auto;
+  height: 175px;
+}
+
+.cont-text {
+  padding: 20px 20px 0;
+  text-align: justify;
+}
+
+.block-3 {
+  padding: 0;
+}
+
+.block-3 .video-container {
+  position: relative;
+  width: 100%;
+  height: 270px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #000;
+  outline: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.block-3 .video-container iframe,
+.block-3 .video-container object,
+.block-3 .video-container embed {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.block-4 {
+  padding: 20px 0 0;
+}
+
+.block-4 ul.sup > li {
+  float: left;
+  width: 50%;
+  height: 260px;
+  font-family: "Fira Sans";
+  text-align: center;
+  padding: 14px 0;
+  border-bottom: 2px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.block-4 ul.sup > li h3 {
+  padding: 15px 10px 0;
+  font-size: 26px;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+  color: #f38240;
+}
+
+.block-4 ul.sup > li p {
+  font-size: 15px;
+  line-height: 1.4em;
+  padding: 0 10px;
+}
+
+.block-5 {
+  background: #f0f0f0;
+  margin: 0 ;
+}
+
+.block-6 {
+  padding: 40px 0 25px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.block-6 .secret-list {
+  padding: 20px 15px 30px;
+}
+
+.block-6 .secret-list li {
+  padding: 15px 0 0;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+.block-6 .secret-list li > span {
+  display: inline-block;
+  margin: 0 8px 0 0;
+  padding: 4px 8px 0;
+  font-weight: 700;
+  color: #121212;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+  background: #ffd200;
+  background-image: -o-linear-gradient(top, #ffd200, #ffb600);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffd200),
+    to(#ffb600)
+  );
+  background-image: linear-gradient(to bottom, #ffd200, #ffb600);
+  border-radius: 4px;
+}
+
+.button-c{
+  width: 380px;
+  margin: 0 auto;
+  border: none;
+  background: white;
+}
+.block-6 .char {
+  padding: 30px 0 0;
+}
+
+.block-6 .char li {
+  float: left;
+  width: 40%;
+  padding: 2px 0 10px 15px;
+  font-size: 18px;
+  line-height: 1.4em;
+  letter-spacing: 0.5px;
+  color: #555555;
+}
+
+.block-6 .char li:nth-child(2n) {
+  width: 60%;
+}
+
+.block-6 .char li span {
+  margin: 0 5px 0 0;
+  font-weight: 700;
+  color: #1e1e1e;
+}
+
+.block-7 {
+  padding: 0;
+}
+
+.block-9 {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.75)),
+      to(rgba(241, 181, 22, 0.22))
+    ),
+    url(../img/gal/blue1.jpg) 25% 0 no-repeat;
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.75), rgba(241, 181, 22, 0.22)),
+    url(../img/gal/blue1.jpg) 25% 0 no-repeat;
+  background: linear-gradient(rgb(0, 0, 0, 0.75), rgb(241, 181, 22, 0.22)),
+    url(../img/gal/blue1.jpg) 25% 0 no-repeat;
+  background-size: auto;
+}
+
+.block-9 .deliv > li {
+  float: left;
+  width: 50%;
+  padding: 30px 15px 10px;
+  text-align: center;
+}
+
+.block-9 .deliv li > div {
+  color: white;
+  font-weight: 600;
+  padding: 1px;
+  border-radius: 16px;
+}
+
+.block-9 .deliv > li:before {
+  content: "";
+  display: block;
+  width: 137px;
+  height: 149px;
+  margin: 0 auto 15px;
+}
+
+.block-9 .deliv > li:nth-child(1):before {
+  background: url(../img/icons/note.png) no-repeat;
+  background-size: contain;
+}
+
+.block-9 .deliv > li:nth-child(2):before {
+  background: url(../img/icons/phone.png) no-repeat;
+  background-size: contain;
+}
+
+.block-9 .deliv > li:nth-child(3):before {
+  background: url(../img/icons/deliv.png) no-repeat;
+  background-size: contain;
+}
+
+.block-9 .deliv > li:nth-child(4):before {
+  background: url(../img/icons/wallet.png) no-repeat;
+  background-size: contain;
+}
+
+.block-10 .rev-slider {
+  position: relative;
+}
+
+.block-10 .rev-item {
+  float: left;
+  text-align: center;
+  overflow: hidden;
+}
+
+.block-10 .rev-item > img {
+  display: block;
+  margin: 0 auto;
+}
+
+.block-10 .rev-item > h4 {
+  height: 71px;
+  padding: 15px 0 0;
+  font-size: 24px;
+  line-height: 1em;
+  font-weight: 700;
+  background: url(../img/star-icon-sweatshirt.etalook.png) 50% 80% no-repeat
+    #fafafa;
+}
+
+.block-10 .rev-item > p {
+  padding: 10px 15px 0;
+  text-align: justify;
+}
+
+.end-block .head {
+  position: relative;
+  height: 445px;
+  padding: 0px 6px 0;
+  background: url(../img/main-sweatshirt-etalook.jpg) 50% 0 no-repeat;
+  background-size: contain;
+  line-height: 1.1em;
+  font-weight: 700;
+}
+
+.end-block .timer {
+  width: 340px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.end-block .timer h3 {
+  padding: 0 0 10px;
+  font-size: 26px;
+  letter-spacing: 1.5px;
+}
+
+.copyright {
+  color: #222;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.feed-wrap,
+.feed-element,
+.feed-info,
+.feed-from,
+.feed-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.feed-wrap {
+  padding: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+
+.feed-element,
+.feed-from {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.feed-element {
+  margin: 0 0 40px 0;
+}
+
+.feed-from {
+  margin: 0 0 10px 0;
+}
+
+.feed-info {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+
+.feed-element > .feed-image {
+  width: 30%;
+}
+
+.feed-element > .feed-info {
+  width: 70%;
+}
+
+.feed-element > div > img {
+  display: block;
+  margin: auto;
+}
+
+.feed-info {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.feed-image {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feed-image img{
+  border-radius: 100%;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+}
+
+.feed-from {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.feed-stars {
+  width: 100px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+span.feed-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.galer-img {
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.modal-header .close {
+  color: #ffb600;
+}
+
+#submit-feed {
+  color: #ffb600;
+  border-color: #ffb600;
+}
+
+.rating_block {
+  width: 125px;
+  height: 25px;
+}
+
+.rating_block input[type="radio"] {
+  display: none;
+}
+
+.label_rating {
+  float: right;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url(../img/icons/rating-sweatshirt.etalook.png) no-repeat 50% 0;
+  cursor: pointer;
+}
+
+/*Пишем правила смены положения background-а*/
+.rating_block .label_rating:hover, /*Правило для ховера на текущий лейбл*/
+.rating_block .label_rating:hover ~ .label_rating, /*Правило для всех следующих лейблов по DOM дереву*/
+.rating_block input[type="radio"]:checked ~ .label_rating /*Правило для всех следующих лейблов после выбранного инпута, чтобы звездочки как бы зафиксировались*/ {
+  background-position: 50% -25px;
+}
+
+.loader {
+  display: none;
+}
+
+.error-message {
+  line-height: 1.2em;
+
+  font-size: 36px;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  display: none;
+}
+
+.btn-outline-primary:hover {
+  background-color: #a07336;
+}
